@@ -1,0 +1,50 @@
+<html>
+<script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="testStorage.css">
+<body>
+<div id="currentUrl"></div>
+<p>Does my browser support LocalStorage : <span id="supportsLocalStorage"></span></p>
+<p>Does my browser support SessionStorage : <span id="supportsSessionStorage"></span></p>
+<div>
+    <div class="divOperation">
+        <p style="text-align: left;">Local Storage</p>
+        <p><input id="keyOfLocalStorage"/></p>
+        <p><input id="valueOfLocalStorage"/></p>
+        <p>
+            <input type="button" id="btLocalStorageSet" value="Set"/>
+            <input type="button" id="btLocalStorageSetDefault" value="SetDefault"/>
+            <br/>
+            <input type="button" id="btLocalStorageClear" value="Clear"/>
+            <input type="button" id="btLocalStorageView" value="View"/>
+        </p>
+    </div>
+    <div>
+        <div id="localStorageView" class="divView">
+
+        </div>
+    </div>
+</div>
+<div></div>
+<div>
+    <div class="divOperation">
+        <p style="text-align: left;">Session Storage</p>
+        <p><input id="keyOfSessionStorage"/></p>
+        <p><input id="valueOfSessionStorage"/></p>
+        <p>
+            <input type="button" id="btSessionStorageSet" value="Set"/>
+            <input type="button" id="btSessionStorageSetDefault" value="SetDefault"/>
+            <br/>
+            <input type="button" id="btSessionStorageClear" value="Clear"/>
+            <input type="button" id="btSessionStorageView" value="View"/>
+        </p>
+    </div>
+    <div>
+        <div id="sessionStorageView" class="divView">
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="testStorage.js"></script>
+</html>
